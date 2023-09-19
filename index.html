@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone -a music app to connect </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png"><span>Spotify</span></img></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Lets play some song to enjoy..</h1>
+            <div class="songs">
+                <img src="covers\1.jpg">
+                <p>Bahut pyaar karte hai</p>
+                <span class="songTime">5:10 <i id="1" class="songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\2.jpg">
+                <p>Let me love baby</p>
+                <span class="songTime">5:01 <i id="2"class=" songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\3.jpg">
+                <p>O purane din</p>
+                <span class="songTime">4:10 <i id="3" class="songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\5.jpg">
+                <p>Suraj hua madham</p>
+                <span class="songTime">5:00 <i id="4" class="songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\5.jpg">
+                <p>Kuch kuch hota hai</p>
+                <span class="songTime">5:02 <i id="5" class="songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\6.jpg">
+                <p>kaha gaye o din</p>
+                <span class="songTime">5:15 <i id="6" class="songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\7.jpg">
+                <p>Baby</p>
+                <span class="songTime">5:04 <i id="7" class="songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\8.jpg">
+                <p>Why this kolaveri</p>
+                <span class="songTime">5:00 <i id="8" class="songPlay fa-regular fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\9.jpg">
+                <p>Suit suit krda</p>
+                <span class="songTime">5:15 <i id="9" class="songPlay fa-regular  fa-circle-play" ></i></span>
+            </div>
+            <div class="songs">
+                <img src="covers\10.jpg">
+                <p>Patiyala peg</p>
+                <span class="songTime">6:01 <i id="10" class=" songPlay fa-regular fa-circle-play"> </i></span>
+            </div>
+          
+        </div>
+    
+        </div>
+    </div>
+
+        <div class="button">
+            <input type="range" id="range" value="0" min="0" max="100">
+                <div class="icons">
+                   <i id="previous" class=" fa-solid fa-backward"></i>
+                    <i class="mainPlay fa-regular fa-circle-play" id="mainPlay"></i>
+                    <i id="next" class="fa-solid fa-forward"></i>
+                </div>
+                <div class="songPlaying">
+                    <img src="playing.gif" id="gif"><span id="masterSong"> Let me love</span> 
+                    
+                </div>
+           
+        </div>
+    
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/bd78591f8f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
